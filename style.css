@@ -1,0 +1,25 @@
+body {
+    background-image: url(bg.png);
+}
+
+@font-face {
+    font-family: Font1;
+    src: url(LeagueSpartan-Bold.otf);
+}
+ 
+.kimmer1 {
+    font-family: Font1;
+    text-shadow: 3px 4px 5px black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+
+.kimmer2 {
+    font-family: Font1;
+    text-shadow: 3px 4px 5px black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -25px;
+}

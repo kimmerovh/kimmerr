@@ -1,0 +1,83 @@
+.sign-wrap-4 {
+    text-align: center;
+    padding: 60px 20px;
+}
+.sign-wrap-4 .sign_word {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
+}
+.sign-wrap-4 .sign_word span {
+    animation: neon-4 linear infinite 2s;
+}
+@keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #ffffff;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+
+$fuschia: #ff0081;
+$button-bg: $fuschia;
+$button-text-color: #fff;
+$baby-blue: #f8faff;
+
+body{
+  font-size: 16px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  text-align: center;
+  background-color: $baby-blue;
+}
+.button_vk {
+  font-family: Font1;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 900px;
+  -webkit-appearance: none;
+  appearance: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(49, 219, 241);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(55, 41, 87, 0.5);
+  
+  
+
+  
+}
+  
